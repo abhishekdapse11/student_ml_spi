@@ -36,6 +36,7 @@ class DataTransformation:
                 "lunch",
                 "test_preparation_course",
             ]
+            #numerical_columns
 
             num_pipeline= Pipeline(
                 steps=[
@@ -44,7 +45,8 @@ class DataTransformation:
 
                 ]
             )
-
+        
+            #categorial_columns
             cat_pipeline=Pipeline(
 
                 steps=[
